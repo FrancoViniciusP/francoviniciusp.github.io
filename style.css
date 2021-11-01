@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #white;
+    background-color: white;
 }
 
 header{
@@ -21,8 +21,7 @@ header img{
     height: 4em;
     display: inline-block;
     position: relative;   
-    padding: 10px;
-    text-shadow: 50px grey;
+    padding: 10px;    
     background-color: #617073;
 
 }
@@ -58,7 +57,7 @@ header h1{
     display: inline-block;
     justify-content: right;
     margin-right: auto;
-    font-size: 1.3em;    
+    font-size: 1.5em;    
     padding-top: 12%;
     text-decoration: none;     
     color: black; 
@@ -71,12 +70,16 @@ div ul{
 
 }
 
+li{
+    padding: 5px;
+}
+
 .fim{
     color: black;
     text-decoration: none;
     margin: 3%;
-    font-size: 20px;
-}
+    font-size: 1.5em;
+ }
 
 .mid h3, .mid h4{
     font-size: 28px;
@@ -88,3 +91,24 @@ div ul{
 
 }
 
+li img{
+    height: 1em;
+    opacity: 0%;
+}
+
+li img:hover{
+    opacity: 100%;
+
+}
+
+.rodape{
+    padding-top: 20px;
+}
+
+.rodape li{
+   padding-top: 10px;
+}
+
+
+
+ 
